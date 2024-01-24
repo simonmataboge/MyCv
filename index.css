@@ -83,7 +83,10 @@ body {
 
    
 }
-
+@media screen and (max-width:400px ) {
+    .book{
+        width: 100%;
+    }
 .book .book-page {
     position: absolute;
     width: 50%;
@@ -104,7 +107,11 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+@media screen and (max-width:400px ) {
+    .profile-page {
+        justify-content: left;
+    }
+}
 .profile-page img {
     width: 180px;
     height:200px;
@@ -123,7 +130,7 @@ body {
 }
 @media screen and (max-width:400px ) {
     .profile-page p {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 @media screen and (max-width:1000px ) {
