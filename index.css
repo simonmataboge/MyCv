@@ -87,6 +87,7 @@ body {
     .book{
         width: 100%;
     }
+}
 .book .book-page {
     position: absolute;
     width: 50%;
