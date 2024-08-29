@@ -107,7 +107,7 @@ body {
 @media screen and (max-width:400px ) {
     .profile-page {
         margin-left: -10px;
-		width: 50%;
+		width: 100%;
     }
 }
 .profile-page img {
